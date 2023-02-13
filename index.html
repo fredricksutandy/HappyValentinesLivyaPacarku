@@ -9,14 +9,14 @@
 <body style="background-color: #3d2929">
 <div class="bg_heart"></div>
 
-      <div class="header" style="display:grid;place-items: center;">
-        <audio controls autoplay>
+      <div class="header" id="header" style="padding: 20px;">
+        <audio controls autoplay style="position:fixed;top: 10px;left: 50%;transform: translateX(-50%);">
           <source src="lagu.mp3" type="audio/mpeg" style="margin: 20px;">
         Your browser does not support the audio element.
         </audio>
-        <p style="margin:auto;padding:0 1rem;color: white; font-size:14px;width: 100%;">*beb scroll sambil setel lagunya ya, tapi hati-hati karena suaranya gede</p>
+        <p style="margin:50px auto;padding:0 1rem;color: white; font-size:14px;width: 100%;">*beb scroll sambil setel lagunya ya, tapi hati-hati karena suaranya gede</p>
         
-        <h1 style="font-size:64px; color:white;">Happy<br>
+        <h1 style="font-size:48px; color:white;">Happy<br>
           <span style="color: pink;">VALENTINES DAY</span><br>
           Sayangku!
         </h1>
@@ -65,8 +65,8 @@
         </div>
       </div>]
       <h1 style="margin-top: 300px;color:pink;text-align: center;">DEAR SAYANGKU CINTAKU MANISKU</h1>
-      <p style="color: white; font-size:20px;line-height: 1.75; text-align: center;">Sudah 2 Valentine kita spend bersama ya sayang!<br>semoga kita bisa merayakan ratusan ribu valentines kedepan lagi yaa!<br>
-        semoga kedepanya aku bs spend much time with you!<br>semoga sampe Last of us Season 2 keluar aku masi bisa nonton sama kamu juga! <br>Semoga aku bisa bikinin kamu 100 playlist lagi di spotify! <br>Semoga aku bisa ajarin kamu Figma sampe jago! <br> Semoga aku bs sama kamu sampe kamu jago mandarin!<br>semoga aku bisa sayangin kamu selama-lamanya!
+      <p style="color: white; font-size:20px;line-height: 1.75; text-align: center;max-width: 550px;width: 100%;">Sudah 2 Valentine kita spend bersama ya sayang! Semoga kita bisa merayakan ratusan ribu valentines kedepan lagi yaa!
+        semoga kedepanya aku bs spend much time with you! Semoga sampe Last of us Season 2 keluar aku masi bisa nonton sama kamu juga! Semoga aku bisa bikinin kamu 100 playlist lagi di spotify! Semoga aku bisa ajarin kamu Figma sampe jago! Semoga aku bs sama kamu sampe kamu jago mandarin! Semoga aku bisa sayangin kamu selama-lamanya!
         </p>
 
         <p style="margin: auto;color: pink; font-size:20px;line-height: 1.75; text-align: center;max-width: 550px;width: 100%;">I just want to say thank you for loving me and making me happy everyday yah beautiful. u made me realize that it is possible to love someone this much!
@@ -81,6 +81,7 @@
           <img src="pedi (4).jpg" style="width:100%;max-width:500px;display: block;margin: 0 auto;">
 
       <h1 style="margin: 200px auto;color:pink;text-align: center;">I LOVE YOU!</h1>
+      <a href="#header" style="margin: auto;color:pink;text-align: center;display: block;padding-bottom: 40px;">balik ke atas</a>
 
 </body>
 </html>
@@ -88,6 +89,7 @@
 <style>
     * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 html,body{
   height:100%
@@ -101,7 +103,7 @@ body {
 .header {
   text-align: center;
   padding: 32px;
-  height: 100vh;
+  height: auto;
 }
 
 .row {
